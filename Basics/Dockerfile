@@ -1,5 +1,5 @@
 FROM alpine:3.9
-LABEL "Mail":"orange@nerocats.com"\
+LABEL "Mail":"arvon2014@gmail.com"\
       "version":"v1.2.3"
 ENV RUN_USER daemon 
 ENV RUN_GROUP daemon
