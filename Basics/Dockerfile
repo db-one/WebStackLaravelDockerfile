@@ -1,18 +1,17 @@
 FROM alpine:3.9
-LABEL "Mail":"orange@nerocats.com"\
-      "version":"v1.2.4"
+LABEL "Mail":"kljxnn@gmail.com"\
+      "version":"v1.3.0"
 ENV RUN_USER daemon 
 ENV RUN_GROUP daemon
 ENV INSTALL_DIR /opt/navi
 ENV DB_HOST 127.0.0.1
 ENV DB_PORT 3306
-ENV DB_DATABASE homestead
-ENV DB_USERNAME homestead
+ENV DB_DATABASE webstack
+ENV DB_USERNAME root
 ENV DB_PASSWORD secret
 ENV LOGIN_COPTCHA true 
 
-ARG WEBSTACK_VERSION=v1.2.4
-ARG DOWNLOAD_URL=https://github.com/hui-ho/WebStack-Laravel/archive/${WEBSTACK_VERSION}.tar.gz
+ARG DOWNLOAD_URL=https://github.com/iyzyi/WebStack-Laravel/archive/v1.3.0.tar.gz
 EXPOSE 8000
 
 COPY entrypoint.sh /entrypoint.sh
