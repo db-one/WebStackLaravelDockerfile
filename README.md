@@ -37,7 +37,7 @@ docker cp webstack:/opt/navi/public/uploads/images /root/backups
 
 # 以下是原项目的README.md。
 
-**由于我大幅度的修改了Dockerfile和shell脚本，所以下面的内容不一定是正确的（对于我的项目来说） **
+**由于我大幅度的修改了Dockerfile和shell脚本，所以下面的内容不一定是正确的（对于我的项目来说）**
 
 ### 项目介绍
 
